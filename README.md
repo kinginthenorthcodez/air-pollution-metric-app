@@ -24,6 +24,7 @@
 ## Live Demo
 
 [video demo]('https://www.loom.com/share/084836369797419eb3f51274a58183b9');
+https://www.loom.com/share/084836369797419eb3f51274a58183b9
 
 [Live website]('');
 
