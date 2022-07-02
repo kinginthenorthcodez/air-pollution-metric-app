@@ -21,12 +21,12 @@
 - Linters
 - APIs
 
+https://www.loom.com/share/be2e9372ee88437f9c5102640a317be7
+[video demo](https://www.loom.com/share/be2e9372ee88437f9c5102640a317be7);
+
 ## Live Demo
 
-[video demo]('https://www.loom.com/share/be2e9372ee88437f9c5102640a317be7');
-https://www.loom.com/share/be2e9372ee88437f9c5102640a317be7
-
-[Live website]('https://kinginthenorthcodez.github.io/air-pollution-metric-app');
+[Live website](https://kinginthenorthcodez.github.io/air-pollution-metric-app);
 
 ## Getting Started
 
