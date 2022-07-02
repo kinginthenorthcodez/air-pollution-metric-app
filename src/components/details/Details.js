@@ -13,7 +13,7 @@ const Details = () => {
   console.log('POLUTIO DETAILS:', pollutionDetails);
   useEffect(() => {
     dispatch(fetchPollutionData(lat, lng));
-  }, []);
+  }, [lat, lng]);
   const { components, dt, aqi } = pollutionDetails;
   const date = new Date(dt * 1000);
   return (
