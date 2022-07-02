@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { useParams } from "react-router-dom";
-import { WiDaySunny } from "weather-icons-react";
-import ProgressBar from "@ramonak/react-progress-bar";
-import { fetchPollutionData } from "../../redux/pollution/pollution";
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { useParams } from 'react-router-dom';
+import { WiDaySunny } from 'weather-icons-react';
+import ProgressBar from '@ramonak/react-progress-bar';
+import { fetchPollutionData } from '../../redux/pollution/pollution';
 
 const Details = () => {
   const dispatch = useDispatch();
