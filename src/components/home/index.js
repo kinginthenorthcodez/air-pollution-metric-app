@@ -39,6 +39,8 @@ const Home = () => {
               name={country.name}
               area={country.area}
               flag={country.flag}
+              lat={country.lat}
+              lng={country.lng}
             />
             /// / .filter((country) => country.name.toLowerCase().includes(search.toLowerCase()))
           ))}
