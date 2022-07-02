@@ -1,8 +1,8 @@
 {
   "name": "air-pollution-app",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://kinginthenorthcodez.github.io/Air-pollution-metric-app",
+  "private": true,
   "dependencies": {
     "@ramonak/react-progress-bar": "^5.0.0",
     "@testing-library/jest-dom": "^5.16.4",
