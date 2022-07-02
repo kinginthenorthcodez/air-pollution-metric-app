@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home snapshot should render Home correctly 1`] = `
+<DocumentFragment>
+  <section
+    class="region-container"
+  >
+    <div
+      class="item"
+    >
+      <div
+        class="header"
+      >
+        <h2>
+          Map region
+        </h2>
+        <div
+          class="title"
+        >
+          <h1>
+            Africa
+          </h1>
+        </div>
+      </div>
+      <input
+        class="input"
+        placeholder="Search your favorite region..."
+        type="text"
+        value="Africa"
+      />
+      <div
+        class="section"
+      />
+    </div>
+  </section>
+</DocumentFragment>
+`;

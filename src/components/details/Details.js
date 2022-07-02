@@ -9,11 +9,10 @@ const Details = () => {
   const dispatch = useDispatch();
   const pollutionDetails = useSelector((state) => state.airPollutionReducer);
   const { idCountry, lat, lng } = useParams();
-  console.log('LATSLONG', lat, lng);
-  console.log('POLUTIO DETAILS:', pollutionDetails);
   useEffect(() => {
     dispatch(fetchPollutionData(lat, lng));
   }, [lat, lng]);
+  console.log('Confirm metrics: ', pollutionDetails);
   const { components, dt, aqi } = pollutionDetails;
   const date = new Date(dt * 1000);
   return (

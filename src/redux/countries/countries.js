@@ -37,8 +37,6 @@ export const fetchCountries = (region) => async (dispatch) => {
     lng: latlng[1],
     name: name.common,
   }));
-  console.log('COUNTRIES', data);
-  console.log('COUNTRIES STRUCT', dataFieds);
   dispatch(fetchOk(dataFieds));
 };
 
