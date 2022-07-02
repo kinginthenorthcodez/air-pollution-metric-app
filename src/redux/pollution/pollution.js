@@ -1,5 +1,18 @@
 // reducer
-const initialState = {};
+const initialState = {
+  components: {
+    co: 201.94,
+    nh3: 0.1,
+    no: 0.01,
+    no2: 0.07,
+    o3: 36.12,
+    pm2_5: 0.5,
+    pm10: 0.74,
+    so2: 0.25,
+  },
+  aqi: 1,
+  dt: 1656748800,
+};
 const airPollutionReducer = (state = initialState, action) => {
   switch (action.type) {
     case 'FETCH_AIR_OK':
