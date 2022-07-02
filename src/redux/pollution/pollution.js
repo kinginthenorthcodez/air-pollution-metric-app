@@ -27,7 +27,6 @@ export const fetchPollutionData = (lat, lng) => async (dispatch) => {
     aqi: main.aqi,
     dt,
   };
-  console.log('Air Pollutes: ', structData);
   dispatch(fetchPollution(structData));
 };
 
