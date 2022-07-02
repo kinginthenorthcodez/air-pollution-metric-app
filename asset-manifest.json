@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Air-pollution-metric-app/static/css/main.b2892bf6.css",
-    "main.js": "/Air-pollution-metric-app/static/js/main.29c95e28.js",
+    "main.js": "/Air-pollution-metric-app/static/js/main.16f5e455.js",
     "index.html": "/Air-pollution-metric-app/index.html",
     "main.b2892bf6.css.map": "/Air-pollution-metric-app/static/css/main.b2892bf6.css.map",
-    "main.29c95e28.js.map": "/Air-pollution-metric-app/static/js/main.29c95e28.js.map"
+    "main.16f5e455.js.map": "/Air-pollution-metric-app/static/js/main.16f5e455.js.map"
   },
   "entrypoints": [
     "static/css/main.b2892bf6.css",
-    "static/js/main.29c95e28.js"
+    "static/js/main.16f5e455.js"
   ]
 }
