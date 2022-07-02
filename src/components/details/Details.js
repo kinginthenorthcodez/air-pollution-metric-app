@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { useParams } from 'react-router-dom';
-import { WiDaySunny } from 'weather-icons-react';
-import ProgressBar from '@ramonak/react-progress-bar';
-import { fetchPollutionData } from '../../redux/pollution/pollution';
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { useParams } from "react-router-dom";
+import { WiDaySunny } from "weather-icons-react";
+import ProgressBar from "@ramonak/react-progress-bar";
+import { fetchPollutionData } from "../../redux/pollution/pollution";
 
 const Details = () => {
   const dispatch = useDispatch();
@@ -12,7 +12,6 @@ const Details = () => {
   useEffect(() => {
     dispatch(fetchPollutionData(lat, lng));
   }, [lat, lng]);
-  console.log('Confirm metrics: ', pollutionDetails);
   const { components, dt, aqi } = pollutionDetails;
   const date = new Date(dt * 1000);
   return (
