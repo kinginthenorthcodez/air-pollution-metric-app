@@ -23,10 +23,10 @@
 
 ## Live Demo
 
-[video demo]('https://www.loom.com/share/084836369797419eb3f51274a58183b9');
-https://www.loom.com/share/084836369797419eb3f51274a58183b9
+[video demo]('https://www.loom.com/share/be2e9372ee88437f9c5102640a317be7');
+https://www.loom.com/share/be2e9372ee88437f9c5102640a317be7
 
-[Live website]('');
+[Live website]('https://kinginthenorthcodez.github.io/air-pollution-metric-app');
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Step 1:
 
-Go to the repo (https://github.com/kinginthenorthcodez/Air-pollution-metric-app) and click on the <>Code tab.
+Go to the repo (https://github.com/kinginthenorthcodez/air-pollution-metric-app) and click on the <>Code tab.
 
 ### Step 2:
 
@@ -56,7 +56,7 @@ Go to the directory where you want to "pull" (download) the repo. If it doesn't 
 
 ### Step 6:
 
-Once you get into your directory, type in the terminal: git clone https or git clone SSH, and then press enter. Example: git clone https://github.com/kinginthenorthcodez/Air-pollution-metric-app
+Once you get into your directory, type in the terminal: git clone https or git clone SSH, and then press enter. Example: git clone https://github.com/kinginthenorthcodez/air-pollution-metric-app
 
 ### Step 7:
 
@@ -74,7 +74,7 @@ Ready to work?⛏️ You're all set to explore and change the repo locally (on y
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kinginthenorthcodez/Air-pollution-metric-app/issues)
+Feel free to check the [issues page](https://github.com/kinginthenorthcodez/air-pollution-metric-app/issues)
 
 ## Show your support
 
@@ -84,7 +84,7 @@ Give a ⭐️ if you like this project!
 
 - Stackoverflow!!!
 - Inspiration.
-- etc.
+- Original design idea by Nelson Sakwa on Behance.
 
 ## 📝 License
 

@@ -1,7 +1,7 @@
 {
   "name": "air-pollution-app",
   "version": "0.1.0",
-  "homepage": "https://kinginthenorthcodez.github.io/Air-pollution-metric-app",
+  "homepage": "https://kinginthenorthcodez.github.io/air-pollution-metric-app",
   "private": true,
   "dependencies": {
     "@ramonak/react-progress-bar": "^5.0.0",
