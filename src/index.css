@@ -173,3 +173,66 @@ header .nav-ul .icons button:hover {
 .region-container .item .section .country-container:nth-child(4n + 4) {
   background-color: var(--background-color-three);
 }
+
+/* details modal */
+.details-ul .name .icon {
+  font-size: 6rem;
+  color: #304b7e;
+  width: 50%;
+  text-align: center;
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.details-ul {
+  color: var(--white-color);
+}
+
+.details-ul .item {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-ul .item .progress-div {
+  width: 100%;
+}
+
+.details-ul .item .left {
+  width: 30%;
+}
+
+.details-ul .item .right {
+  width: 66%;
+  text-align: center;
+}
+
+.details-ul .item:nth-child(even) {
+  background-color: var(--background-color-three);
+}
+
+.details-ul .name {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  background-color: var(--background-color-two);
+}
+
+.details-ul .name-div {
+  width: 50%;
+  padding-right: 4rem;
+  font-size: 3rem;
+}
+
+.details-ul .details {
+  height: 0.2rem;
+  font-size: 1.4rem;
+  font-weight: 900;
+  padding: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
