@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+## Air Pollution App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Air Pollution Metrics app provides current, forecast and historical air pollution data for any coordinates on the globe, users can search by region(continent) or Country to get Metrics update in real time.
 
-## Available Scripts
+### Reigon
 
-In the project directory, you can run:
+![screenshot](./app_screenshot1.png)
 
-### `npm start`
+![screenshot](./app_screenshot4.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Country Metrics
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![screenshot](./app_screenshot2.png)
 
-### `npm test`
+![screenshot](./app_screenshot3.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `npm run build`
+- React
+- Redux
+- Linters
+- APIs
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://www.loom.com/share/be2e9372ee88437f9c5102640a317be7
+[video demo](https://www.loom.com/share/be2e9372ee88437f9c5102640a317be7);
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Live website](https://kinginthenorthcodez.github.io/air-pollution-metric-app);
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**This will be included in our portfolio**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get a local copy up and running follow these simple example steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Step 1:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Go to the repo (https://github.com/kinginthenorthcodez/air-pollution-metric-app) and click on the <>Code tab.
 
-## Learn More
+### Step 2:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Below the <>Code tab, it will be a button that allows you to choose any of the branches of the repository you're interested in (it is commonly set by default to the "master" or "main" branch). Each branch may contain different files and changes to the repo. If you are not sure which one to choose, select the "master" branch.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Step 3:
 
-### Code Splitting
+Go and click on the right green button with the "code" tag. Be sure to copy any of the https or the SSH links.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Step 4:
 
-### Analyzing the Bundle Size
+Open the terminal in your computer. To do that, you need to type in the search bar "cmd" for Windows or "terminal" if you are using Línux or macOS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Step 5:
 
-### Making a Progressive Web App
+Go to the directory where you want to "pull" (download) the repo. If it doesn't exist, create it. Example: cd Documents/Microverse/Module_1/. You can create a folder manually and then go to it in the terminal using the cd command.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Step 6:
 
-### Advanced Configuration
+Once you get into your directory, type in the terminal: git clone https or git clone SSH, and then press enter. Example: git clone https://github.com/kinginthenorthcodez/air-pollution-metric-app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Step 7:
 
-### Deployment
+npm i -g npm@latest to resolve any version dependecy
+Ready to work?⛏️ You're all set to explore and change the repo locally (on your computer).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Authors
 
-### `npm run build` fails to minify
+👤 **Isaac Maqueen**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub: [@kinginthenorthcodez](https://github.com/kinginthenorthcodez)
+- Twitter: [@kinthenorthcode](https://twitter.com/kinthenorthcode)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/kinginthenorthcodez/air-pollution-metric-app/issues)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Stackoverflow!!!
+- Inspiration.
+- Original design idea by Nelson Sakwa on Behance.
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

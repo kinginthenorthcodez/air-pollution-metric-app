@@ -1,13 +1,238 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  transition: all 0.2s linear;
+  line-height: 1.4;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-family: "Lato", sans-serif;
+  padding: 0 8%;
+  font-size: 62.5%;
+}
+
+:root {
+  --background-color: #304b7e;
+  --background-color-two: #578ef4;
+  --background-color-three: #4369b2;
+  --header-color: #4e7acc;
+  --white-color: #f1f2f6;
+  --orange-color: #e67e22;
+  --transition: all 0.1s ease-in;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--background-color);
+  font-size: 1.8rem;
+}
+
+/* Header section */
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--header-color);
+}
+
+header .nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  padding: 0 2%;
+}
+
+header .nav-ul a {
+  font-size: 1.2rem;
+  color: var(--white-color);
+}
+
+header .nav-ul .back-btn a {
+  cursor: pointer;
+  font-size: 3rem;
+  transition: var(--transition);
+}
+
+header .nav-ul .back-btn a:hover {
+  color: var(--orange-color);
+}
+
+header .nav-ul .logo {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+header .nav-ul .title {
+  letter-spacing: 1.2px;
+  font-size: 2.2rem;
+}
+
+header .nav-ul .icons button {
+  all: unset;
+  cursor: pointer;
+  margin-right: 1.2rem;
+  color: var(--white-color);
+  transition: var(--transition);
+}
+
+header .nav-ul .icons button:hover {
+  color: var(--orange-color);
+}
+
+/* Region home section */
+
+.region-container .item {
+  color: var(--white-color);
+}
+
+.region-container .item .header {
+  background-color: var(--background-color-two);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 3rem;
+  gap: 30%;
+}
+
+.region-container .item .header .title {
+  padding: 1.5rem 3rem;
+  text-align: center;
+}
+
+.region-container .item .input {
+  width: 100%;
+  outline: none;
+  padding: 1.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.region-container .item .section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.region-container .item .section .country-container {
+  width: 50%;
+  padding: 2rem;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.region-container .item .section .country-container:hover {
+  transform: scale(1.04);
+}
+
+.region-container .item .section .country-container h2 {
+  font-size: 1.5rem;
+  margin: 3px 0;
+}
+
+.region-container .item .section .country-container .icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.region-container .item .section .country-container .icons .stats {
+  color: var(--white-color);
+  font-size: 4rem;
+}
+
+.region-container .item .section .country-container .icons .stats img {
+  width: 30%;
+}
+
+.region-container .item .section .country-container .icons .arrow {
+  color: var(--white-color);
+  font-size: 2.5rem;
+}
+
+.region-container .item .section .country-container .icons .arrow:hover {
+  color: var(--orange-color);
+}
+
+.region-container .item .section .country-container .info {
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.region-container .item .section .country-container:nth-child(4n + 1) {
+  background-color: var(--background-color-three);
+}
+
+.region-container .item .section .country-container:nth-child(4n + 4) {
+  background-color: var(--background-color-three);
+}
+
+/* details modal */
+.details-ul .name .icon {
+  font-size: 6rem;
+  color: #304b7e;
+  width: 50%;
+  text-align: center;
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.details-ul {
+  color: var(--white-color);
+}
+
+.details-ul .item {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-ul .item .progress-div {
+  width: 100%;
+}
+
+.details-ul .item .left {
+  width: 30%;
+}
+
+.details-ul .item .right {
+  width: 66%;
+  text-align: center;
+}
+
+.details-ul .item:nth-child(even) {
+  background-color: var(--background-color-three);
+}
+
+.details-ul .name {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  background-color: var(--background-color-two);
+}
+
+.details-ul .name-div {
+  width: 50%;
+  padding-right: 4rem;
+  font-size: 3rem;
+}
+
+.details-ul .details {
+  height: 0.2rem;
+  font-size: 1.4rem;
+  font-weight: 900;
+  padding: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
